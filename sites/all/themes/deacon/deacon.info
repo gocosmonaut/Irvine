@@ -28,9 +28,7 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/local.bootstrap.css
-stylesheets-conditional[IE 8][all][] = css/ie8.css
-stylesheets-conditional[lte IE 8][all][]  = css/ie8.css
-stylesheets-conditional[lte IE8][all][]  = css/ie8.css
+
 
 ; For information on choosing the desired method, please read the Drupal
 ; Bootstrap sub-theme "how-to" documentation:
