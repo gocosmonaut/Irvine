@@ -228,6 +228,7 @@ $databases = array (
   ),
 );
 
+
 /**
  * Access control for update.php script.
  *
@@ -258,7 +259,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'Fre0lBQiWeVTjMmz1ejQNh2cj_LAZHhKAFPMQ_xpjOY';
+$drupal_hash_salt = 'nYHG8OslUqL7DHaBfqAM6UNv44_eBm6p6LyfbDqu2PU';
 
 /**
  * Base URL (optional).
@@ -316,6 +317,7 @@ ini_set('session.gc_maxlifetime', 200000);
  * the cookie. The value 0 means "until the browser is closed".
  */
 ini_set('session.cookie_lifetime', 2000000);
+ini_set('memory_limit', '512M');
 
 /**
  * If you encounter a situation where users post a large amount of text, and
@@ -447,18 +449,6 @@ ini_set('session.cookie_lifetime', 2000000);
  */
 # $conf['css_gzip_compression'] = FALSE;
 # $conf['js_gzip_compression'] = FALSE;
-
-/**
- * Block caching:
- *
- * Block caching may not be compatible with node access modules depending on
- * how the original block cache policy is defined by the module that provides
- * the block. By default, Drupal therefore disables block caching when one or
- * more modules implement hook_node_grants(). If you consider block caching to
- * be safe on your site and want to bypass this restriction, uncomment the line
- * below.
- */
-# $conf['block_cache_bypass_node_grants'] = TRUE;
 
 /**
  * String overrides:

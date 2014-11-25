@@ -1,2 +1,2 @@
 .page-header, h1, h2 { font-family: 'Akkurat-Bold'; font-style: normal; font-weight: 700; }
-body, a { font-family: 'Akkurat-Regular'; font-style: normal; font-weight: 500; }
+body, a, section#block-system-main-menu ul.menu.nav li a { font-family: 'Akkurat-Regular'; font-style: normal; font-weight: 500; }
