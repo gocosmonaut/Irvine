@@ -38,6 +38,8 @@ a:hover {
 }
 .row { margin:0px !important; }
 
+
+
 /* TEMPORARY FOR THEMING */
 
 aside.col-sm-3 { /* LEFT COLUMN 
@@ -91,6 +93,10 @@ margin-bottom: 0px !important;
 header#navbar {
 	/* background:white; */
 	
+}
+
+div.main-container.container p {
+	font-size:1.25em;
 }
 
 
@@ -390,12 +396,6 @@ header#navbar {
     
 }
 
-h1.page-header {
-	padding:0px;
-	line-height:1;
-	margin:0px;
-	border:none;
-}
 
 div.main-container.container{
 	width:1170px;
@@ -515,6 +515,14 @@ div.utility-nav p span a:hover {
 }
 /* PROJECT PAGES */
 
+
+body.node-type-project h1.page-header {
+	padding:0px;
+	line-height:1;
+	margin:0px;
+	border:none;
+}
+
 body.node-type-project div.group-left {
 	float:left;
 	width:75%;
@@ -564,16 +572,20 @@ div.group-project-principals.field-group-div {
 
 div.field-name-field-owner,
 div.field-name-field-architects,
-div.field-name-field-developer {
+div.field-name-field-developer,
+div.field-name-field-engineer,
+div.field-name-field-owner-s-representative {
 	padding:5%;
 	width:100%;
 	background:#f0f0f0;
 	margin-bottom:12px;
 }
 
-div.field-name-field-owner div.field-label, /* NEED TO ADD ENGINEER + OWNER'S REP */
+div.field-name-field-owner div.field-label, 
 div.field-name-field-architects div.field-label,
-div.field-name-field-developer div.field-label {
+div.field-name-field-developer div.field-label,
+div.field-name-field-engineer div.field-label,
+div.field-name-field-owner-s-representative div.field-label{
 	text-transform:uppercase;
 	letter-spacing:1px;
 	font-size:.85em;
@@ -588,5 +600,35 @@ div.field-name-field-full-project-description p {
 	margin:0px;
 }
 
+div.group-testimonial.field-group-div { /* TESTIMONIALS ON PROJECT PAGES */
+	border:1px solid #ccc;
+	padding:12px;
+	text-align:right;
+	margin-top:18px;
+}
 
+div.group-testimonial.field-group-div h3 {
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:1em;
+	margin-top:0px;
+	text-align:left;
+}
+
+div.field-name-field-testimonial div.field-items p {
+	font-size:1.1em;
+text-align:left;
+}
+
+div.field-name-field-testimonial-name {
+	
+}
+
+div.field-name-field-testimonial-title {
+	
+}
+
+div.field-name-field-testimonial-company {
+	
+}
 
