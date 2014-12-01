@@ -766,6 +766,7 @@ input.form-autocomplete,input.form-text,input.form-file,textarea.form-textarea,s
   border: 1px solid #ddd;
   background: #fff;
   color: #333;
+  font-size:1.2em;
 }
 
 #module-filter-modules {

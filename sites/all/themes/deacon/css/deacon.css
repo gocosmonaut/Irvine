@@ -10,6 +10,10 @@
 	margin:0px;
 }
 
+.navbar-default {
+		background:white;
+}
+
 a, span, p, body, h1, h2, h3, h4 {
 	text-rendering: optimizelegibility;
 
@@ -25,24 +29,41 @@ a, button:hover, img a:hover {
 	 transition: all 0.2s ease 0.1s;
 }
 
+
 a:hover {
 	text-decoration:none;
 }
-
+.field-label {
+	font-weight:500 !important;
+}
 .row { margin:0px !important; }
 
 /* TEMPORARY FOR THEMING */
 
-aside.col-sm-3 { /* LEFT COLUMN */
-background:#e0e0e0;
+aside.col-sm-3 { /* LEFT COLUMN 
+background:#e0e0e0;*/
 }
 
-section.col-sm-9 { /* PRIMARY CONTENT AREA */
-	background:#eee;
+section.col-sm-9 { /* PRIMARY CONTENT AREA 
+	background:#eee;*/
 }
 
 
 /**/
+
+/* HEADER AFFIX */
+
+header#navbar {
+	border-bottom:1px dotted white;
+	transition: all 0.2s ease 0.2s;
+}
+
+header#navbar.affix {
+	border-bottom:1px solid #0a3254;
+	
+	transition: all 0.2s ease 0.2s;
+	
+}
 
 section#block-block-1 { /* OFFICES IN UPPER RIGHT */
 text-align:right;
@@ -69,7 +90,7 @@ margin-bottom: 0px !important;
 
 header#navbar {
 	/* background:white; */
-	border:none;
+	
 }
 
 
@@ -369,6 +390,13 @@ header#navbar {
     
 }
 
+h1.page-header {
+	padding:0px;
+	line-height:1;
+	margin:0px;
+	border:none;
+}
+
 div.main-container.container{
 	width:1170px;
 	padding:0px;
@@ -466,17 +494,17 @@ margin-bottom: 0px !important;
 	box-shadow:none;
 }
 
-div.utility-nav { /* UTILITY NAV */
+div.utility-nav { /* UTILITY NAV - OFFICE LOCATIONS */
 	margin-top:16px;
 }
 
-div.utility-nav p span { /* UTILITY NAV */
+div.utility-nav p span { /* UTILITY NAV - OFFICE LOCATIONS */
 	padding:0px 5px;
 	border-right:1px solid #606060;
 	font-size:1.1em;
 }
 
-div.utility-nav p span a{ /* UTILITY NAV */
+div.utility-nav p span a{ /* UTILITY NAV - OFFICE LOCATIONS */
 	color: #606060;
 
 }
@@ -484,7 +512,81 @@ div.utility-nav p span a{ /* UTILITY NAV */
 div.utility-nav p span a:hover {
 	color:#0a3254;
 	
+}
+/* PROJECT PAGES */
+
+body.node-type-project div.group-left {
+	float:left;
+	width:75%;
+}
+
+body.node-type-project div.group-right {
+	float:right;
+	width:22%;
+}
+
+
+
+
+div.field-name-field-city-and-state h3{
+	text-transform:uppercase;
+	font-size:1.1em;
+	letter-spacing:1px;
+	margin: 10px 0px 18px 0px;
+}
+
+div.field-name-field-primary-image {
+	width:100%;
+	
+	margin:0px 0px 20px;
+}
+
+div.field-name-field-primary-image img {
+	width:100%;
+	height:auto;
+}
+
+div.field-name-field-supporting-images {
+	width:100%;
+}
+
+div.field-name-field-supporting-images img {
+	width:100%;
+	height:auto;
+	margin-top:15px;
+}
+	
+
+div.group-project-principals.field-group-div {
+	width:100%;
 	
 }
+
+div.field-name-field-owner,
+div.field-name-field-architects,
+div.field-name-field-developer {
+	padding:5%;
+	width:100%;
+	background:#f0f0f0;
+	margin-bottom:12px;
+}
+
+div.field-name-field-owner div.field-label, /* NEED TO ADD ENGINEER + OWNER'S REP */
+div.field-name-field-architects div.field-label,
+div.field-name-field-developer div.field-label {
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:.85em;
+}
+
+div.field-name-field-full-project-description {
+	margin:0px;
+}
+
+div.field-name-field-full-project-description p {
+	font-size:1.1em;
+	margin:0px;
+}
+
 
 
