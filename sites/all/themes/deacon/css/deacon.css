@@ -632,3 +632,75 @@ div.field-name-field-testimonial-company {
 	
 }
 
+/* SOCIAL MEDIA 
+Instagram #517fa4
+Twitter #00aced
+Facebook #3b5998
+LinkedIn #0077b5
+YouTube #e52d27 */
+
+section#block-block-2 {
+	width:205px;
+	float:right;
+}
+
+div#facebook, div#twitter, div#linkedin, div#instagram, div#youtube {
+	width:33px;
+	height:33px;
+	margin-right:9px;
+	float:left;
+	text-align:center;
+	vertical-align:center;
+}
+
+
+div#facebook {
+background: #3b5998;
+}
+
+div#twitter {
+background: #00aced;
+}
+
+div#linkedin {
+background: #0077b5;
+}
+
+div#instagram {
+background: #517fa4;
+}
+
+ div#youtube {
+	margin-right:0px;
+	background:#e52d27;
+}
+
+div#facebook img {
+height:27px;
+width:auto;
+margin-top:3px;
+}
+
+div#twitter  img{
+height:20px;
+width:auto;
+margin-top:7px;
+}
+
+div#linkedin img {
+height:23px;
+width:auto;
+margin-top:5px;
+}
+
+div#instagram img {
+height:23px;
+width:auto;
+margin-top:5px;
+}
+
+ div#youtube img {
+	height:24px;
+width:auto;
+margin-top:5px;
+}
