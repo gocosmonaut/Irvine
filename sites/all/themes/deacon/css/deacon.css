@@ -25,8 +25,16 @@ a {
 	
 }
 
-a, button:hover, img a:hover {
-	 transition: all 0.2s ease 0.1s;
+div.main-container a {
+color:#0e87c0;
+}
+
+div.main-container a:hover {
+color:#1da5e4;
+}
+
+a, button:hover, img a:hover, :hover {
+	transition: all  0.2s ease 0.1s;
 }
 
 
@@ -666,6 +674,13 @@ div#linkedin {
 background: #0077b5;
 }
 
+div#facebook:hover, div#twitter:hover, div#linkedin:hover, div#instagram:hover, div#youtube:hover {
+background: black;
+
+display:block;
+
+}
+
 div#instagram {
 background: #517fa4;
 }
@@ -678,7 +693,9 @@ background: #517fa4;
 div#facebook img {
 height:27px;
 width:auto;
-margin-top:3px;
+margin:3px auto 0;
+
+
 }
 
 div#twitter  img{
@@ -704,3 +721,5 @@ margin-top:5px;
 width:auto;
 margin-top:5px;
 }
+
+ 
