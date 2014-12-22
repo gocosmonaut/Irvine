@@ -54,10 +54,16 @@ a:hover {
 
 /* TEMPORARY FOR THEMING */
 
-aside.col-sm-3 { /* LEFT COLUMN 
+aside.col-sm-3.left { /* LEFT COLUMN 
 background:#e0e0e0;*/
 position:fixed;
 }
+
+aside.col-sm-3.right { /* LEFT COLUMN 
+background:#e0e0e0;*/
+position:relative;
+}
+
 
 section.col-sm-9 { /* PRIMARY CONTENT AREA 
 	background:#eee;*/
@@ -900,7 +906,6 @@ max-width:125px;
 
 /* PROJECT BLOCK */
 section#block-views-random-photo-block-block {
-	float:right;
 	margin:0px 0px 20px 20px;
 	width:175px;
 }
@@ -919,4 +924,10 @@ section#block-views-random-photo-block-block div.views-field-field-city-and-stat
 	margin:0;
 	padding:0;
 	line-height:115%;
+}
+
+/* PROJECT BLOCK */
+section#block-views-random-employee-block-block {
+	margin:0px 0px 20px 20px;
+	width:175px;
 }
