@@ -8,6 +8,7 @@
 	color:#606060;
 	padding:0px;
 	margin:0px;
+	letter-spacing:0.15px;
 }
 
 .navbar-default {
@@ -60,6 +61,8 @@ h1.page-header {
 	color:#333;
 }
 
+section.col-sm-6 h3, section.col-sm-9 h3  { color:#0a3254; border-bottom:1px solid #999; font-size:21px; padding-bottom:6px;}
+	
 
 
 /* TEMPORARY FOR THEMING */
@@ -679,6 +682,7 @@ div.field-name-field-city-and-state h3{
 	font-size:1.1em;
 	letter-spacing:1px;
 	margin: 10px 0px 18px 0px;
+	border-bottom: 0 none;
 }
 
 div.field-name-field-primary-image {
