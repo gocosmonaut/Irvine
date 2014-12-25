@@ -4,5 +4,5 @@ div.field-name-field-developer,
 div.field-name-field-engineer,
 div.field-name-field-owner-s-representative { font-family: 'Akkurat-Bold'; font-style: normal; font-weight: 700; }
 ul#home-division-container li a, div.field-name-field-city-and-state h3, div.views-field-field-city-and-state h3, aside.col-sm-3.right h2.block-title { font-family: 'Akkurat-Light'; font-style: normal; font-weight: 300; }
-body, a, section#block-system-main-menu ul.menu.nav li a, .field-label,  aside.col-sm-3.right h2.block-title, body.SmartBidNetSDDeacon td { font-family: 'Akkurat-Regular'; font-style: normal; font-weight: 500; }
+body, a, section#block-system-main-menu ul.menu.nav li a, .field-label,  aside.col-sm-3.right h2.block-title, body.SmartBidNetSDDeacon td, .field-label { font-family: 'Akkurat-Regular'; font-style: normal; font-weight: 500; }
 section#block-views-home-page-marquee-block div.views-field.views-field-title span a, footer.footer.container section#block-block-3 div.licenses, footer.footer.container section#block-block-3 div.copyright, aside.col-sm-3.left form#search-block-form input.form-control, section#block-views-news-block div.views-field-field-published-date p { font-family: 'SignikaNegative'; font-style: normal; font-weight: 500; }
