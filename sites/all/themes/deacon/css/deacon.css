@@ -695,9 +695,27 @@ div.view-random-photo-block view-id-random_photo_block.view-display-id-block_1 {
 }
 
 div.view-random-photo-block.view-id-random_photo_block.view-display-id-block_1 a img {
-	max-width:150px;
-	height:auto;
 }
+ 
+	
+div#portfolio-landing div.pane-block td.col-1,
+div#portfolio-landing div.pane-block td.col-2,
+div#portfolio-landing div.pane-block td.col-3,
+div#portfolio-landing div.pane-block td.col-4,
+div#portfolio-landing div.pane-block td.col-5 {
+max-width:175px;
+width:14%;
+}
+
+div#portfolio-landing div.pane-block td.col-1 div,
+div#portfolio-landing div.pane-block td.col-2 div,
+div#portfolio-landing div.pane-block td.col-3 div,
+div#portfolio-landing div.pane-block td.col-4 div,
+div#portfolio-landing div.pane-block td.col-5 div {
+max-width:160px;
+}
+
+div#portfolio-landing tr {vertical-align:top;}
 
 
 @media(min-width:1200px){
