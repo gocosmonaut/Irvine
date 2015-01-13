@@ -236,33 +236,35 @@ section#block-block-1 p {margin:0px;}
 section#block-block-1 p span {border-right:1px solid #606060;}
 section#block-block-1 p span a {color: #606060;}
 section#block-block-1 p span a:hover {color:#0a3254;}
+section#block-block-1 p span.seattle {padding-left:0px; !important;}
+section#block-block-1 p span.irvine {border-right:0px; padding-right:0px !important;}
 
 @media(min-width:1200px){
 	div.utility-nav { margin-top:16px; }
 section#block-block-1 { text-align:right;width:50%;float:right;margin: 0 0 0 50%;}
 section#block-block-1 p {margin:0px;font-size:1em;}
-section#block-block-1 p span {padding:0px 5px;font-size:1.15em;}
+section#block-block-1 p span {padding:0px 16px;font-size:1.15em;}
 div.utility-nav section#block-block-4 {display:none;}
 }
 @media(min-width:992px) and (max-width:1199px){
 div.utility-nav { margin-top:15px; }
 section#block-block-1 { text-align:right;width:50%;float:right;margin: 0 0 0 50%;}
 section#block-block-1 p {margin:0px;font-size:1.1em;}
-section#block-block-1 p span {padding:0px 5px;}
+section#block-block-1 p span {padding:0px 15px;}
 div.utility-nav section#block-block-4 {display:none;}
 }
 @media(min-width:768px) and (max-width:991px){
 div.utility-nav { margin-top:14px; }
-section#block-block-1 { text-align:right;width:50%;float:right;margin: 0 0 0 50%;}
+section#block-block-1 { text-align:right;width:100%;float:right;margin: 0 0 0 50%;}
 section#block-block-1 p {margin:0px;font-size:1.05em;}
-section#block-block-1 p span {padding:0px 5px;}
+section#block-block-1 p span {padding:0px 14px;}
 div.utility-nav section#block-block-4 {display:none;}
 }
 @media(min-width:481px) and (max-width:767px){
 div.utility-nav { margin-top:13px; }
 section#block-block-1 { text-align:center;width:98%;float:right;margin: 0 1%;}
 section#block-block-1 p {margin:0px;font-size:1em;}
-section#block-block-1 p span {padding:0px 5px;}
+section#block-block-1 p span {padding:0px 12px;}
 div.utility-nav section#block-block-4 {float: left;margin: 10px 0 16px; width: 175px;}
 div.utility-nav section#block-block-4 img {width:100%;height:auto;}
 }
@@ -731,32 +733,17 @@ div#portfolio-landing div.panel-col-top h2.pane-title { background:#606060;paddi
 /* Featured Projects */
 
 div#portfolio-landing tr {vertical-align:top;}
-
-div#portfolio-landing div.view-random-photo-block.view-id-random_photo_block.view-display-id-block_1 { width:100%;}
-
+div#portfolio-landingdiv.view-random-photo-block.view-id-random_photo_block.view-display-id-block_1 { width:100%;}
 div#portfolio-landing div.pane-views-random-photo-block-block-1 h2.pane-title { font-size:1.65em; margin-bottom:20px;}
 
-div#portfolio-landing div.pane-block div.views-field.views-field-field-primary-image img { padding:0 0 12px 0;	}
+div#portfolio-landing div.panel-col-first div.field-name-field-full-story  { padding:10px 0 0 0;}
+div#portfolio-landing div.panel-col-first div.field-name-field-full-story p  { font-size:1.3em;}
+div#portfolio-landing div.panel-col-top div.field-name-field-full-story p { font-size:1.3em;padding:12px;}
+div#portfolio-landing div.pane-block table div.views-field.views-field-title  { padding:0px; margin-top:6px; }
 
-div#portfolio-landing div.panel-col-first div.field-name-field-full-story   { padding:10px 0 0 0;}
-div#portfolio-landing div.panel-col-first div.field-name-field-full-story p   { font-size:1.3em;}
-div#portfolio-landing div.panel-col-top div.field-name-field-full-story p   { font-size:1.3em;padding:12px;}
+div#portfolio-landing div.pane-block div.views-field.views-field-field-city-and-state div h3 {font-size: 1.1em; line-height: 135%; margin:8px 0 0px 0; border:0px; }
 
-
-div#portfolio-landing div.pane-block table div.views-field.views-field-title  { padding:0px; }
-
-
-
-div#portfolio-landing div.pane-block div.views-field.views-field-field-city-and-state div h3 {
-font-size: 1.1em;
-line-height: 135%;
-margin:8px 0 0px 0;
-border:0px;
-}
-
-div#portfolio-landing div.pane-block div.views-field.views-field.views-field-field-short-project-description p {
-	font-size:1em;
-}
+div#portfolio-landing div.pane-block div.views-field.views-field.views-field-field-short-project-description p { font-size:1em;}
 
 
 @media(min-width:1200px){
@@ -764,21 +751,13 @@ div#portfolio-landing div.pane-block div.views-field.views-field.views-field-fie
 div.panel-col-top { display:none; } /* hide single column view */
 div.panel-col-first, div.panel-col-last { display:block;} /* show full-ish layout */
 	
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td {
-width:20%;
-text-align:left;
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td {width:20%;text-align:left;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td div {width:93%;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td div img {width:100%;height:auto;
 }
 
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td div {
-width:93%;
-}
-
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td div img {
-width:100%;
-height:auto;
-}
-
-div#portfolio-landing div.pane-views-random-photo-block-block-1 div.views-field.views-field-title span a { font-size:1.2em; line-height:110%;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 div.views-field.views-field-title span a { font-size:1.2em; line-height:110%; margin-top:0px;}
+div#portfolio-landing div.pane-block div.views-field.views-field-field-primary-image img { padding:0 0 6px 0; float:none;	}
 
 
 }
@@ -788,104 +767,257 @@ div.panel-col-top { display:none; } /* hide single column view */
 div.panel-col-first, div.panel-col-last { display:block;} /* show full-ish layout */
 
 
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td {
-width:20%;
-text-align:left;
-float:none;
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td {width:20%;text-align:left;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td div {width:92%;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td div img {width:100%;height:auto;
 }
 
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td div {
-width:92%;
-}
-
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td div img {
-width:100%;
-height:auto;
-}
-
-div#portfolio-landing div.pane-views-random-photo-block-block-1 div.views-field.views-field-title span a { font-size:1.15em; line-height:110%;}	
-
+div#portfolio-landing div.pane-views-random-photo-block-block-1 div.views-field.views-field-title span a { font-size:1.15em; line-height:110%; margin-top:6px;}
+div#portfolio-landing div.pane-block div.views-field.views-field-field-primary-image img { padding:0 0 6px 0; float:none;	}
 
 }
 @media(min-width:768px) and (max-width:991px){
-
 div.panel-col-top { display:none; } /* hide single column view */
 div.panel-col-first, div.panel-col-last { display:block;} /* show full-ish layout */
 
-
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td {
-width:20%;
-text-align:left;
-float:none;
-}
-
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td div {
-width:91%;
-}
-
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td div img {
-width:100%;
-height:auto;
-}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td { width:20%; text-align:left; float:none; height:140px;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td div { width:91%;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td div img { width:100%; height:auto;}
 
 div#portfolio-landing div.pane-views-random-photo-block-block-1 div.views-field.views-field-title span a { font-size:1.1em; line-height:110%;}	
+div#portfolio-landing div.pane-block div.views-field.views-field-field-primary-image img { padding:0 0 6px 0; float:left; margin:6px 12px 6px 0px;	}
 
 }
+
 @media(min-width:481px) and (max-width:767px){
-	
 div.panel-col-top { display:block; } /* show single column view */
 div.panel-col-first, div.panel-col-last { display:none;} /* hide full-ish layout */
 	
-div#portfolio-landing div.pane-views-random-photo-block-block-1 td {
-width:100%;
-text-align:left;
-float:left;
-}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td { width:100%; text-align:left;float:left;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 div.views-field.views-field-title span a { font-size:1.2em; line-height:110%;}
+div#portfolio-landing div.pane-block div.views-field.views-field-field-primary-image img { padding:0 0 12px 0; float:left; margin:6px 12px 30px 0px;	}
 
 }
 @media (max-width:480px){
-	div.panel-col-top { display:block; } /* show single column view */
+div.panel-col-top { display:block; } /* show single column view */
 div.panel-col-first, div.panel-col-last { display:none;} /* hide full-ish layout */
+
+div#portfolio-landing div.pane-views-random-photo-block-block-1 td { width:100%; text-align:left;
+float:left;}
+div#portfolio-landing div.pane-views-random-photo-block-block-1 div.views-field.views-field-title span a { font-size:1.2em; line-height:110%;}
+div#portfolio-landing div.pane-block div.views-field.views-field-field-primary-image img { padding:0 0 12px 0; float:right; margin:6px 12px 42px 12px; width:100px; height:auto;	}
 }
 
+/***--Portfolio Category Page-- ***/
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { margin:0px auto; float:none;  text-align:center; width:50%;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label {}
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+
+body.page-portfolio-categories div.view-display-id-page_2 tr { vertical-align:top;}
+body.page-portfolio-categories div.view-display-id-page_2 tr td {width:23%; margin-right:2.66%;}
+body.page-portfolio-categories div.view-display-id-page_2 tr td.col-first {}
+body.page-portfolio-categories div.view-display-id-page_2 tr td.col-last {margin:0px;}
+body.page-portfolio-categories div.view-display-id-page_2 tr td div {text-align:left;width:94%;}
+
+body.page-portfolio-categories div.views-field-title span a {line-height:125%;}
+body.page-portfolio-categories div.views-field-field-city-and-state h3 {line-height:135%;}
+
+@media(min-width:1200px){
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+	
+body.page-portfolio-categories div.views-field-title {margin-top:9px;  }	
+body.page-portfolio-categories div.views-field-title span {}
+body.page-portfolio-categories div.views-field-title span a {font-size:1.25em;}
+body.page-portfolio-categories div.views-field-field-city-and-state h3 {font-size:1.15em; margin:4px 0px 15px 0px;}
+body.page-portfolio-categories div.views-field-field-primary-image img {margin-top:20px;}
+body.page-portfolio-categories div.views-field-field-short-project-description p {font-size:1.1em; line-height:140%;}
+}
+
+@media(min-width:992px) and (max-width:1199px){
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+	
+body.page-portfolio-categories div.views-field-title {margin-top:9px;  }	
+body.page-portfolio-categories div.views-field-title span {}
+body.page-portfolio-categories div.views-field-title span a {font-size:1.25em;}
+body.page-portfolio-categories div.views-field-field-city-and-state h3 {font-size:1.15em; margin:4px 0px 15px 0px;}
+body.page-portfolio-categories div.views-field-field-primary-image img {margin-top:20px;}
+body.page-portfolio-categories div.views-field-field-short-project-description p {font-size:1.1em; line-height:140%;}
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+	
+body.page-portfolio-categories div.views-field-title {margin-top:9px;  }	
+body.page-portfolio-categories div.views-field-title span {}
+body.page-portfolio-categories div.views-field-title span a {font-size:1.25em;}
+body.page-portfolio-categories div.views-field-field-city-and-state h3 {font-size:1.15em; margin:4px 0px 15px 0px;}
+body.page-portfolio-categories div.views-field-field-primary-image img {margin-top:20px; width:75%; height:auto;}
+body.page-portfolio-categories div.views-field-field-short-project-description p {font-size:1.1em; line-height:140%;}
+
+}
+@media(min-width:481px) and (max-width:767px){
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+	
+body.page-portfolio-categories div.views-field-title {margin-top:9px;  }	
+body.page-portfolio-categories div.views-field-title span {}
+body.page-portfolio-categories div.views-field-title span a {font-size:1.25em;}
+body.page-portfolio-categories div.views-field-field-city-and-state h3 {font-size:1.15em; margin:4px 0px 15px 0px;}
+body.page-portfolio-categories div.views-field-field-primary-image img {margin-top:20px; width:90%; height:auto;}
+body.page-portfolio-categories div.views-field-field-short-project-description p {font-size:1.1em; line-height:140%;}
+}
+@media (max-width:480px){
+	
+	form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+	
+body.page-portfolio-categories div.views-field-title {margin: 0px 10% 0 !important;
+    width: 80% !important;}	
+body.page-portfolio-categories div.views-field-title span {}
+body.page-portfolio-categories div.views-field-title span a {font-size:1.25em;}
+body.page-portfolio-categories div.views-field-field-city-and-state h3 {font-size:1.15em; margin:4px 0px 15px 0px;}
+body.page-portfolio-categories div.views-field-field-primary-image  {text-align:center;}
+body.page-portfolio-categories div.views-field-field-primary-image img {margin:20px 0%; width:100%; height:auto;}
+body.page-portfolio-categories div.views-field-field-short-project-description p {font-size:1.1em; line-height:140%;}
+
+body.page-portfolio-categories div.view-display-id-page_2 tr { vertical-align:top;}
+body.page-portfolio-categories div.view-display-id-page_2 tr td {width:100%; margin-right:0;float:left;}
+body.page-portfolio-categories div.view-display-id-page_2 tr td.col-first {}
+body.page-portfolio-categories div.view-display-id-page_2 tr td.col-last {margin:0px;}
+body.page-portfolio-categories div.view-display-id-page_2 tr td div {text-align:left;width:90%;margin:0px 5%;}
+}
+ 
+div.group-testimonial.field-group-div h3 span
 /***--Project Pages-- ***/
 
 
 body.node-type-project h1.page-header {padding:0px;line-height:1;margin:0px;border:none;}
-body.node-type-project div.group-left {float:left;width:75%;}
-body.node-type-project div.group-right {float:right;width:22%;}
 body.node-type-project div.group-right div.group-project-principals.field-group-div { width:100%;}
 
-div.field-name-field-primary-image {width:100%;margin:0px 0px 25px;}
-div.field-name-field-primary-image img {width:100%;height:auto;}
+body.node-type-project div.field-name-field-primary-image {width:100%;margin:0px 0px 25px;}
+body.node-type-project div.field-name-field-primary-image img {width:100%;height:auto;}
 
-div.field-name-field-supporting-images {width:100%;}
-div.field-name-field-supporting-images img {width:100%;height:auto;margin-top:15px;}
+body.node-type-project div.field-name-field-supporting-images {width:100%;}
+body.node-type-project div.field-name-field-supporting-images img {width:100%;height:auto;margin-top:15px;}
 	
-div.field-name-field-city-and-state h3{text-transform:uppercase;font-size:1.1em;letter-spacing:1px;margin: 10px 0px 18px 0px;border-bottom: 0 none;}
-div.field-name-field-owner,div.field-name-field-architects,div.field-name-field-developer,div.field-name-field-engineer,div.field-name-field-owner-s-representative {padding:5%;width:100%;background:#f0f0f0;margin-bottom:12px;color:#333;
-}
-div.field-name-field-owner div.field-label, div.field-name-field-architects div.field-label,div.field-name-field-developer div.field-label,div.field-name-field-engineer div.field-label,div.field-name-field-owner-s-representative div.field-label{text-transform:uppercase;letter-spacing:1px;font-size:.85em;padding-bottom: 4px;color:#606060;}
-div.field-name-field-full-project-description {margin:0px;}
+body.node-type-project div.field-name-field-city-and-state h3{text-transform:uppercase;font-size:1.1em;letter-spacing:1px;margin: 10px 0px 18px 0px;border-bottom: 0 none;}
+body.node-type-project div.field-name-field-full-project-description p {}
+
+body.node-type-project div.field-name-field-owner,
+body.node-type-project div.field-name-field-architects,
+body.node-type-project div.field-name-field-developer,
+body.node-type-project div.field-name-field-engineer,
+body.node-type-project div.field-name-field-owner-s-representative {width:100%;background:#f0f0f0;margin-bottom:12px;color:#333;}
+
+body.node-type-project div.field-name-field-owner div.field-label, 
+body.node-type-project div.field-name-field-architects div.field-label, 
+body.node-type-project div.field-name-field-developer div.field-label,
+body.node-type-project div.field-name-field-engineer div.field-label,
+body.node-type-project div.field-name-field-owner-s-representative div.field-label{text-transform:uppercase;letter-spacing:1px;padding-bottom: 4px;color:#606060;}
 
 div.group-testimonial.field-group-div {border:1px solid #ccc;padding:12px;text-align:right;margin-top:18px;}
 div.group-testimonial.field-group-div h3 {text-transform:uppercase;letter-spacing:1px;font-size:1em;margin-top:0px;text-align:left;}
-div.field-name-field-testimonial div.field-items p {font-size:1.1em;text-align:left;}
-div.field-name-field-testimonial-name {}
+div.field-name-field-testimonial div.field-items p {font-size:1.1em;text-align:left; color:#333;}
+div.field-name-field-testimonial-name {margin-top:12px;}
 div.field-name-field-testimonial-title {}
 div.field-name-field-testimonial-company {}
 
 @media(min-width:1200px){
+body.node-type-project div.group-left {float:left;width:75%;}
+body.node-type-project div.group-right {float:right;width:22%;}
+body.node-type-project div.field-name-field-full-project-description p { font-size:1.35em; margin-bottom:0px;}
 
+body.node-type-project div.field-name-field-owner,
+body.node-type-project div.field-name-field-architects,
+body.node-type-project div.field-name-field-developer,
+body.node-type-project div.field-name-field-engineer,
+body.node-type-project div.field-name-field-owner-s-representative {padding:5%; font-size:1.15em;}
+
+body.node-type-project div.field-name-field-owner div.field-label, 
+body.node-type-project div.field-name-field-architects div.field-label, 
+body.node-type-project div.field-name-field-developer div.field-label,
+body.node-type-project div.field-name-field-engineer div.field-label,
+body.node-type-project div.field-name-field-owner-s-representative, div.field-label{font-size:.85em;}
 }
+
 @media(min-width:992px) and (max-width:1199px){
+body.node-type-project div.group-left {float:left;width:72%;}
+body.node-type-project div.group-right {float:right;width:25%;}
+body.node-type-project div.field-name-field-full-project-description p { font-size:1.35em; margin-bottom:0px;}
 
+body.node-type-project div.field-name-field-owner,
+body.node-type-project div.field-name-field-architects,
+body.node-type-project div.field-name-field-developer,
+body.node-type-project div.field-name-field-engineer,
+body.node-type-project div.field-name-field-owner-s-representative {padding:5%; font-size:1.15em;}
+
+body.node-type-project div.field-name-field-owner div.field-label, 
+body.node-type-project div.field-name-field-architects div.field-label, 
+body.node-type-project div.field-name-field-developer div.field-label,
+body.node-type-project div.field-name-field-engineer div.field-label,
+body.node-type-project div.field-name-field-owner-s-representative, div.field-label{font-size:.85em;}
 }
+
 @media(min-width:768px) and (max-width:991px){
+body.node-type-project div.group-left {float:left;width:67%;}
+body.node-type-project div.group-right {float:right;width:30%;}
+body.node-type-project div.field-name-field-full-project-description p { font-size:1.3em; margin-bottom:0px;}
 
+body.node-type-project div.field-name-field-owner,
+body.node-type-project div.field-name-field-architects,
+body.node-type-project div.field-name-field-developer,
+body.node-type-project div.field-name-field-engineer,
+body.node-type-project div.field-name-field-owner-s-representative {padding:5%; font-size:1.1em}
+
+body.node-type-project div.field-name-field-owner div.field-label, 
+body.node-type-project div.field-name-field-architects div.field-label, 
+body.node-type-project div.field-name-field-developer div.field-label,
+body.node-type-project div.field-name-field-engineer div.field-label,
+body.node-type-project div.field-name-field-owner-s-representative, div.field-label{font-size:.85em;}
 }
+
 @media(min-width:481px) and (max-width:767px){
+body.node-type-project div.group-left {float:left;width:59%;}
+body.node-type-project div.group-right {float:right;width:38%;}
+body.node-type-project div.field-name-field-full-project-description p { font-size:1.3em; margin-bottom:12px;}
+
+body.node-type-project div.field-name-field-owner,
+body.node-type-project div.field-name-field-architects,
+body.node-type-project div.field-name-field-developer,
+body.node-type-project div.field-name-field-engineer,
+body.node-type-project div.field-name-field-owner-s-representative {padding:4%; font-size:1.1em;}
+
+body.node-type-project div.field-name-field-owner div.field-label, 
+body.node-type-project div.field-name-field-architects div.field-label, 
+body.node-type-project div.field-name-field-developer div.field-label,
+body.node-type-project div.field-name-field-engineer div.field-label,
+body.node-type-project div.field-name-field-owner-s-representative, div.field-label{font-size:.9em;}
 
 }
+
 @media (max-width:480px){
+	body.node-type-project div.group-left {width:100%;}
+body.node-type-project div.group-right {width:100%;}
+body.node-type-project div.field-name-field-full-project-description p { font-size:1.3em; margin-bottom:16px;}
+
+body.node-type-project div.field-name-field-owner,
+body.node-type-project div.field-name-field-architects,
+body.node-type-project div.field-name-field-developer,
+body.node-type-project div.field-name-field-engineer,
+body.node-type-project div.field-name-field-owner-s-representative {padding:3%; font-size:1.3em;}
+
+body.node-type-project div.field-name-field-owner div.field-label, 
+body.node-type-project div.field-name-field-architects div.field-label, 
+body.node-type-project div.field-name-field-developer div.field-label,
+body.node-type-project div.field-name-field-engineer div.field-label,
+body.node-type-project div.field-name-field-owner-s-representative, div.field-label{font-size:1em;}
 }
