@@ -270,7 +270,7 @@ div.utility-nav section#block-block-4 img {width:100%;height:auto;}
 }
 @media (max-width:480px){
 div.utility-nav { margin-top:12px; }
-section#block-block-1 { text-align:center;width:98%;float:right;margin: 0 1%;}
+section#block-block-1 { text-align:center;width:100%;float:none;margin: 0%;}
 section#block-block-1 p {margin:0px;font-size:.85em;}
 section#block-block-1 p span {padding:0px 5px;}
 div.utility-nav section#block-block-4 {float: left;margin: 10px 0 16px; width: 160px;}
@@ -809,8 +809,8 @@ div#portfolio-landing div.pane-block div.views-field.views-field-field-primary-i
 }
 
 /***--Portfolio Category Page-- ***/
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { margin:0px auto; float:none;  text-align:center; width:50%;}
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label {}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { margin:0px auto; float:none;  text-align:center; }
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label {letter-spacing:0px;}
 form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
 
 body.page-portfolio-categories div.view-display-id-page_2 tr { vertical-align:top;}
@@ -823,9 +823,9 @@ body.page-portfolio-categories div.views-field-title span a {line-height:125%;}
 body.page-portfolio-categories div.views-field-field-city-and-state h3 {line-height:135%;}
 
 @media(min-width:1200px){
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
-form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { width:50%;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em; }
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.3em;}
 	
 body.page-portfolio-categories div.views-field-title {margin-top:9px;  }	
 body.page-portfolio-categories div.views-field-title span {}
@@ -836,9 +836,9 @@ body.page-portfolio-categories div.views-field-field-short-project-description p
 }
 
 @media(min-width:992px) and (max-width:1199px){
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
-form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { width:50%;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em; }
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.3em;}
 	
 body.page-portfolio-categories div.views-field-title {margin-top:9px;  }	
 body.page-portfolio-categories div.views-field-title span {}
@@ -850,9 +850,9 @@ body.page-portfolio-categories div.views-field-field-short-project-description p
 }
 
 @media(min-width:768px) and (max-width:991px){
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
-form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { width:65%;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.15em; }
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.3em;}
 	
 body.page-portfolio-categories div.views-field-title {margin-top:9px;  }	
 body.page-portfolio-categories div.views-field-title span {}
@@ -863,18 +863,21 @@ body.page-portfolio-categories div.views-field-field-short-project-description p
 
 }
 @media(min-width:481px) and (max-width:767px){
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
-form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
-form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.35em;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { width:75%;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.15em; }
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.3em;}
 	
 body.page-portfolio-categories div.views-field-title {margin-top:9px;  }	
 body.page-portfolio-categories div.views-field-title span {}
 body.page-portfolio-categories div.views-field-title span a {font-size:1.25em;}
-body.page-portfolio-categories div.views-field-field-city-and-state h3 {font-size:1.15em; margin:4px 0px 15px 0px;}
+body.page-portfolio-categories div.views-field-field-city-and-state h3 {font-size:1.1em; margin:4px 0px 15px 0px;}
 body.page-portfolio-categories div.views-field-field-primary-image img {margin-top:20px; width:90%; height:auto;}
 body.page-portfolio-categories div.views-field-field-short-project-description p {font-size:1.1em; line-height:140%;}
 }
 @media (max-width:480px){
+	form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { width:90%;}
+form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1em; }
+form#views-exposed-form-random-photo-block-page-2 select#edit-tid { font-size:1.25em;}
 	
 	form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper { }
 form#views-exposed-form-random-photo-block-page-2 div#edit-tid-wrapper label { font-size:1.25em;}
