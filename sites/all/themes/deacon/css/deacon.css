@@ -608,41 +608,41 @@ section#block-views-random-testimonial-block div.views-field-field-testimonial-c
 
 @media(min-width:1200px){
 section#block-views-random-testimonial-block  {margin:0px 0px 20px 0px; width:100%; float:none;}
-section#block-views-random-testimonial-block div.views-field-field-job-title p {width:100%; float:none; font-size:.95em;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial-name {font-size:1.1em;margin:5px 0px 2px 0px;}
+section#block-views-random-testimonial-block div.views-field-field-job-title  {width:100%; float:none; font-size:.95em; text-align:right;}
+section#block-views-random-testimonial-block div.views-field-field-testimonial-name {font-size:1.1em;margin:20px 0px 2px 0px; text-align:right;}
 section#block-views-random-testimonial-block div.views-field-field-testimonial p {width:100%; float:none; font-size:1em;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial-company {width:100%; float:none; font-size:.95em;}
+section#block-views-random-testimonial-block div.views-field-field-testimonial-company {width:100%; float:none; font-size:.95em; text-align:right;}
 
 }
 @media(min-width:992px) and (max-width:1199px){
 	section#block-views-random-testimonial-block  {margin:0px 0px 20px 0px; width:100%; float:none;}
-section#block-views-random-testimonial-block div.views-field-field-job-title p {width:100%; float:none; font-size:.95em;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial-name {font-size:1.1em; margin:5px 0px 2px 0px;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial p {width:100%; float:none; padding:0; border:0px; font-size:1em;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial-company {width:100%; float:none; font-size:.95em;}
+section#block-views-random-testimonial-block div.views-field-field-job-title  {width:100%; float:none; font-size:.95em; text-align:right;}
+section#block-views-random-testimonial-block div.views-field-field-testimonial-name {font-size:1.1em; margin:20px 0px 2px 0px; text-align:right;}
+section#block-views-random-testimonial-block div.views-field-field-testimonial p {width:100%; float:none; padding:0; border:0px; font-size:1em; }
+section#block-views-random-testimonial-block div.views-field-field-testimonial-company {width:100%; float:none; font-size:.95em; text-align:right;}
 }
 
 @media(min-width:768px) and (max-width:991px){
 	section#block-views-random-testimonial-block  {margin:0px 0px 20px 0px; width:100%; float:none;}
-section#block-views-random-testimonial-block div.views-field-field-job-title p {width:100%; float:none; padding:0; border:0px; font-size:1em;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial-name {font-size:1.05em; margin:5px 0px 2px 0px;}
+section#block-views-random-testimonial-block div.views-field-field-job-title  {width:100%; float:none; padding:0; border:0px; font-size:1em; text-align:right;}
+section#block-views-random-testimonial-block div.views-field-field-testimonial-name {font-size:1.05em; margin:20px 0px 2px 0px; text-align:right;}
 section#block-views-random-testimonial-block div.views-field-field-testimonial p {width:100%; float:none; padding:0; border:0px; font-size:1em;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial-company {width:100%; float:none; padding:0; border:0px; font-size:.95em;}
+section#block-views-random-testimonial-block div.views-field-field-testimonial-company {width:100%; float:none; padding:0; border:0px; font-size:.95em; text-align:right;}
 }
 
 @media(min-width:481px) and (max-width:767px){
 section#block-views-random-testimonial-block  {margin:0px 0px 20px 0px; width:100%;float:none;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial-name  {font-size:.95em; float:none; width:100%; margin:5px 0px 2px 0px;}
-section#block-views-random-testimonial-block div.views-field-field-job-title p {font-size:.8em; float:none;}
+section#block-views-random-testimonial-block div.views-field-field-testimonial-name  {font-size:.95em; float:none; width:100%; margin:5px 0px 2px 0px; text-align:right;}
+section#block-views-random-testimonial-block div.views-field-field-job-title  {font-size:.8em; float:none; text-align:right;}
 section#block-views-random-testimonial-block div.views-field-field-testimonial p {width:100%; float:none; padding:0; border:0px; font-size:1em;}
-section#block-views-random-testimonial-block div.views-field-field-testimonial-company { float:none; padding:0; border:0px; font-size:.95em;}
+section#block-views-random-testimonial-block div.views-field-field-testimonial-company { float:none; padding:0; border:0px; font-size:.95em; text-align:right;}
 }
 
 @media (max-width:480px){
 	section#block-views-random-testimonial-block  {margin:0 10px 20px 0; width:45%;padding-right:5%; border-right:1px solid #999; float:left;}
-	section#block-views-random-testimonial-block div.views-field-field-testimonial-name {font-size:1.1em;margin:0px 0px 2px 0px;}
+	section#block-views-random-testimonial-block div.views-field-field-testimonial-name {font-size:1.1em;margin:10px 0px 2px 0px;}
 	section#block-views-random-testimonial-block div.views-field-field-job-title  {font-size:.9em; }
-	section#block-views-random-testimonial-block div.views-field-field-testimonial p {padding:0px 3% 0% 0; font-size:.95em;}
+	section#block-views-random-testimonial-block div.views-field-field-testimonial p {padding:12px 3% 0% 0; font-size:.95em;}
 	section#block-views-random-testimonial-block div.views-field-field-testimonial-company {font-size:.9em;}
 }
 
@@ -650,13 +650,13 @@ section#block-views-random-testimonial-block div.views-field-field-testimonial-c
 
 /* random employees */
 
-section#block-views-random-employee-block-block {margin:0px 0px 20px 0px; line-height: 120%; width:100%;}
+section#block-views-random-employee-block-block {margin:0px 0px 20px 0px; line-height: 120%; width:100%; }
 section#block-views-random-employee-block-block div.views-field-title {margin: 10px 0 2px 0;}
 section#block-views-random-employee-block-block div.views-field-title span {
 color:#0a3254;}
 section#block-views-random-employee-block-block div.views-field-employee-photo 
  img {}
-section#block-views-random-employee-block-block div.views-field-job-title {}
+section#block-views-random-employee-block-block div.views-field-job-title {letter-spacing:-0.5px;}
 
 
 @media(min-width:1200px){
