@@ -119,8 +119,8 @@ section.col-sm-6 h3, section.col-sm-9 h3  { color:#0a3254; border-bottom:1px sol
 	div.main-container.container{ width:1170px; margin:0px auto;}
 	aside.col-sm-3.left { width:223px; }
 	aside.col-sm-3.right { width:194px; padding:85px 0px 0px 0px; }
-	aside.col-sm-3.right div.region-sidebar-second {border-left:1px solid #aaa;padding-left:20px;}
-	section.col-sm-6 {margin-left: 260px; padding:14px 20px 0px 0px;width: 715px;}
+	aside.col-sm-3.right div.region-sidebar-second {border-left:1px solid #aaa;padding-left:20px; float:right;}
+	section.col-sm-6 {margin-left: 260px; padding:14px 20px 0px 0px;width: 715px; float:left;}
 	section.col-sm-9 { float:right;width:905px;padding:13px 0 0 0 ;position:relative;}
 	
 
